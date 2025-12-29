@@ -332,6 +332,21 @@ html {
     justify-content: center;
     flex-wrap: wrap;
 }
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+.copyright p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--text-color);
+    transition: all .3s ease;
+}
+.app.dark .copyright p {
+    color: var(--text-color-dark);
+}
 .button {
     position: relative;
     display: flex;
